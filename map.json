@@ -112,40 +112,121 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":10,
          "firstgid":1,
-         "source":"Flat_walls_floors_32x32_1.tsx"
+         "image":"tiles\/Flat_walls_floors_32x32_1.png",
+         "imageheight":448,
+         "imagewidth":320,
+         "margin":0,
+         "name":"Flat_walls_floors_32x32_1",
+         "spacing":0,
+         "tilecount":140,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":10,
          "firstgid":141,
-         "source":"Flat_walls_floors_32x32_2.tsx"
+         "image":"tiles\/Flat_walls_floors_32x32_2.png",
+         "imageheight":320,
+         "imagewidth":320,
+         "margin":0,
+         "name":"Flat_walls_floors_32x32_2",
+         "spacing":0,
+         "tilecount":100,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":241,
-         "source":"Basement_32x32.tsx"
+         "image":"tiles\/Basement_32x32.png",
+         "imageheight":1600,
+         "imagewidth":512,
+         "margin":0,
+         "name":"Basement_32x32",
+         "spacing":0,
+         "tilecount":800,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":1041,
-         "source":"Generic_32x32.tsx"
+         "image":"tiles\/Generic_32x32.png",
+         "imageheight":1920,
+         "imagewidth":512,
+         "margin":0,
+         "name":"Generic_32x32",
+         "spacing":0,
+         "tilecount":960,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":22,
          "firstgid":2001,
-         "source":"Office_interiors_32x32.tsx"
+         "image":"tiles\/Office_interiors_32x32.png",
+         "imageheight":768,
+         "imagewidth":704,
+         "margin":0,
+         "name":"Office_interiors_32x32",
+         "spacing":0,
+         "tilecount":528,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":2529,
-         "source":"Classroom_and_library_32x32.tsx"
+         "image":"tiles\/Classroom_and_library_32x32.png",
+         "imageheight":1088,
+         "imagewidth":512,
+         "margin":0,
+         "name":"Classroom_and_library_32x32",
+         "spacing":0,
+         "tilecount":544,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":3073,
-         "source":"workspace.tsx"
+         "image":"tilesets_deviant_milkian_1.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"workspace",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":3329,
-         "source":"Bedroom_32x32.tsx"
+         "image":"tiles\/Bedroom_32x32.png",
+         "imageheight":1184,
+         "imagewidth":512,
+         "margin":0,
+         "name":"Bedroom_32x32",
+         "spacing":0,
+         "tilecount":592,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":3921,
-         "source":"LivingRoom_32x32.tsx"
+         "image":"tiles\/LivingRoom_32x32.png",
+         "imageheight":896,
+         "imagewidth":512,
+         "margin":0,
+         "name":"LivingRoom_32x32",
+         "spacing":0,
+         "tilecount":448,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
          "columns":10,

@@ -1,7 +1,26 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":15,
  "infinite":false,
  "layers":[
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4370, 4370, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4370, 4370, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":15,
+         "id":8,
+         "name":"start",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":15,
+         "x":0,
+         "y":0
+        }, 
         {
          "data":[151, 152, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 154, 161, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 164, 161, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 164, 161, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 164, 161, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 164, 161, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 164, 161, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 164, 161, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 164, 161, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 164, 161, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 164, 161, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 164, 161, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 164, 161, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 164, 161, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 164, 191, 193, 193, 193, 193, 193, 193, 193, 193, 193, 193, 193, 193, 193, 194],
          "height":15,
@@ -9,7 +28,7 @@
          "name":"base",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":15,
          "x":0,
          "y":0
@@ -21,7 +40,7 @@
          "name":"walls",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":15,
          "x":0,
          "y":0
@@ -29,7 +48,7 @@
         {
          "draworder":"topdown",
          "id":3,
-         "name":"Object Layer 1",
+         "name":"floorLayer",
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
@@ -44,7 +63,7 @@
          "name":"furniture",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":15,
          "x":0,
          "y":0
@@ -56,7 +75,7 @@
          "name":"electronics",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":15,
          "x":0,
          "y":0
@@ -68,7 +87,7 @@
          "name":"decoration",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":15,
          "x":0,
          "y":0
@@ -80,12 +99,12 @@
          "name":"toys",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":15,
          "x":0,
          "y":0
         }],
- "nextlayerid":8,
+ "nextlayerid":9,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
@@ -127,6 +146,19 @@
         {
          "firstgid":3921,
          "source":"LivingRoom_32x32.tsx"
+        }, 
+        {
+         "columns":10,
+         "firstgid":4369,
+         "image":"..\/test\/tiles\/Flat_walls_floors_32x32_2.png",
+         "imageheight":320,
+         "imagewidth":320,
+         "margin":0,
+         "name":"Flat_walls_floors_32x32_2",
+         "spacing":0,
+         "tilecount":100,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
